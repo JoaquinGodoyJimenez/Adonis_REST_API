@@ -19,7 +19,3 @@ const Route = use('Route')
 Route.group(() => {
   Route.post('usuarios/registro', 'UserController.store');
 }).prefix('api/v1/');
-
-Route.group(() => {
-  Route.post('usuarios/registro', 'UserController.store');
-}).prefix('api/v2/');
